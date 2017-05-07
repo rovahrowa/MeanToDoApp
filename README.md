@@ -1,13 +1,10 @@
 # MeanToDoApp
+#To Run the application:
 
-#Requirements
-1. nodejs environment
-2. npm packages:
-	1. express
-	2. body-parser
-	3. 
+#Fetch the required packages
 
+npm install
 
-#Initial Setup
+#Start the application
 
-npm init
+node app.js
