@@ -11,7 +11,13 @@ module.exports =  function (app) {
     app.use(bodyParser.json());
     app.use(bodyParser.urlencoded({extended:true}));
     //API Locations
-    app.get('/', function (req, res) {
+    app.get('/', function (req,res) {
+
+        res.render('../views/apiDoc.ejs')
+
+    })
+
+    app.get('/api', function (req, res) {
         res.json({
 
             APIName:"DanstanDToDoApp",
