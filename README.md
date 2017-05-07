@@ -15,4 +15,8 @@ node app.js
 
 #Populate database
 
-GoTo http://localhost:8090/api/initialData
+GET http://localhost:8090/api/initialData
+
+#View all endpoints
+
+GET http://localhost:8090/api
